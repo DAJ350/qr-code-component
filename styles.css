@@ -1,8 +1,78 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+
 }
 
 .hidden {
     display: none;
+}
+
+body {
+    background-color: #D5E1EF;
+    height: 100%;
+    width: 100%;
+}
+
+.text_preset_1 {
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+.text_preset_2 {
+    font-family: "Outfit";
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+/* Card Design */
+ #card {
+    margin: 230.5px auto;
+    background-color: #fff;
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    box-shadow: 0 25px 25px 0 rgb(0 0 0 / 4.77%);
+    text-align: center;
+}
+
+/* Image Container */
+#image_container {
+    width: 288px;
+    height: 288px;
+    margin-bottom: 24px;
+}
+
+#qr_code {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Caption */
+
+figcaption {
+    width: 288px;
+    height: 131px;
+    padding: 0 16px;
+}
+
+h2 {
+    color: #1f314f;
+}
+
+p {
+    margin-top: 16px;
+    color: #68778d;
 }
