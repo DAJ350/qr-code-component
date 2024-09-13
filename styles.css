@@ -76,3 +76,8 @@ p {
     margin-top: 16px;
     color: #68778d;
 }
+
+/* Attribution */
+.attribution, .attribution a {
+    font-family: "Outfit";
+}
