@@ -16,8 +16,12 @@ html {
 
 body {
     background-color: #D5E1EF;
-    height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .text_preset_1 {
@@ -36,8 +40,8 @@ body {
 }
 
 /* Card Design */
- #card {
-    margin: 230.5px auto;
+ .card {
+   /* margin: 230.5px auto; */
     background-color: #fff;
     width: 320px;
     height: 499px;
@@ -48,13 +52,13 @@ body {
 }
 
 /* Image Container */
-#image_container {
+.image_container {
     width: 288px;
     height: 288px;
     margin-bottom: 24px;
 }
 
-#qr_code {
+.qr_code {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -70,14 +74,19 @@ main {
 
 h1 {
     color: #1f314f;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 p {
     margin-top: 16px;
     color: #68778d;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /* Attribution */
 .attribution, .attribution a {
+    margin-top: 10%;
     font-family: "Outfit";
 }
